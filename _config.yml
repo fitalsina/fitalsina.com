@@ -42,19 +42,19 @@ defaults:
       path: "posts/*.md"
       type: "posts"
     values:
-      layout: "default"
+      layout: "post"
   -
     scope:
       path: "programs/*.md"
       type: "pages"
     values:
-      layout: "default"
+      layout: "program"
   -
     scope:
       path: "testimonials/*.md"
       type: "pages"
     values:
-      layout: "default"
+      layout: "testimonial"
 plugins:
  - jekyll-optional-front-matter
  - jekyll-titles-from-headings
