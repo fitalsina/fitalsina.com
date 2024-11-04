@@ -1,8 +1,56 @@
-Get moving to get healthier
+# home
 
-Make movement a part of your daily life with mini workouts and easy exercises
----
-About Live N Move
+- Fitness Coach
+- Kasim Alsina / FitAlsina.com
+- [Get Started](#/contact)
 
-What's special about your product, service, or company? Use this space to highlight the things that set you apart from your competition, whether it's a special feature, a unique philosophy, or awards and recognition that you have received. Think of this as your elevator pitch to get the reader's attention.
----
+
+# bio
+
+- Kasim Alsina
+- fitness coach & gym guru
+
+Here you put some bio paragrapgs. Here you put some bio paragrapgs. Here you put some bio paragrapgs.
+
+Here you put some bio paragrapgs. Here you put some bio paragrapgs. Here you put some bio paragrapgs. Here you put some bio paragrapgs. Here you put some bio paragrapgs. 
+
+Here you put some bio paragrapgs. Here you put some bio paragrapgs. Here you put some bio paragrapgs. Here you put some bio paragrapgs. Here you put some bio paragrapgs. Here you put some bio paragrapgs. Here you put some bio paragrapgs. 
+
+- [Train with Kasin](/#contact)
+
+
+
+# blogs
+
+- Kasin's latest posts
+- Learn more about staying fit
+
+<post-previews>
+
+- read more posts
+
+
+
+
+# programs
+
+- training programs
+- get your fitness journey right
+
+<program-previews>
+
+
+
+# testimonials
+
+- success stories
+- customer journeys and testimonials
+
+<testimonial-previews>
+
+
+
+# contact
+
+
+

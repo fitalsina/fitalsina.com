@@ -1,0 +1,63 @@
+theme: null
+layouts_dir: "./_template/layouts"
+includes_dir: "./_template/layouts"
+kramdown:
+  input: "GFM"
+exclude: [ "vendor", ".jekyll-cache" ]
+include:
+  - "_img"
+defaults:
+  -
+    scope:
+      path: ""
+      type: "pages"
+    values:
+      layout: "default"
+  -
+    scope:
+      path: "index.md"
+      type: "pages"
+    values:
+      layout: "home"
+  -
+    scope:
+      path: "posts/index.md"
+      type: "posts"
+    values:
+      layout: "posts-list"
+  -
+    scope:
+      path: "programs/index.md"
+      type: "pages"
+    values:
+      layout: "programs-list"
+  -
+    scope:
+      path: "testimonials/index.md"
+      type: "pages"
+    values:
+      layout: "testimonials-list"
+  -
+    scope:
+      path: "posts/*.md"
+      type: "posts"
+    values:
+      layout: "default"
+  -
+    scope:
+      path: "programs/*.md"
+      type: "pages"
+    values:
+      layout: "default"
+  -
+    scope:
+      path: "testimonials/*.md"
+      type: "pages"
+    values:
+      layout: "default"
+plugins:
+ - jekyll-optional-front-matter
+ - jekyll-titles-from-headings
+optional_front_matter:
+  remove_originals: true
+livereload: true
