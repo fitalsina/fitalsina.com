@@ -4,8 +4,7 @@ includes_dir: "./_template/layouts"
 kramdown:
   input: "GFM"
 exclude: [ "vendor", ".jekyll-cache" ]
-include:
-  - "_img"
+include: [ "_template" ]
 defaults:
   -
     scope:
@@ -22,7 +21,7 @@ defaults:
   -
     scope:
       path: "posts/index.md"
-      type: "posts"
+      type: "pages"
     values:
       layout: "posts-list"
   -
@@ -55,6 +54,18 @@ defaults:
       type: "pages"
     values:
       layout: "testimonial"
+  -
+    scope:
+      path: "header.md"
+      type: "pages"
+    values:
+      layout: "header"
+  -
+    scope:
+      path: "footer.md"
+      type: "pages"
+    values:
+      layout: "footer"
 plugins:
  - jekyll-optional-front-matter
  - jekyll-titles-from-headings
