@@ -1,1 +1,10 @@
-header template here
+<nav class="header">
+{%- 
+
+capture content -%}{%- 
+  include components/header.md -%}{%- 
+endcapture -%}{{- 
+content | markdownify | remove: '<p>' | remove: '</p>'
+
+-}}
+</nav>

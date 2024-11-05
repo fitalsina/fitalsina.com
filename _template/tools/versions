@@ -5,4 +5,4 @@ wwwDir="${toolsDir}/../.."
 cd "${wwwDir}"
 set -x
 
-bundle exec jekyll serve --port 4420
+bundle exec github-pages versions

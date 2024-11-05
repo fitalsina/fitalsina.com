@@ -1,7 +1,26 @@
-{%- include meta.html title="Fitness Coach" -%}
+{%- 
+  
+include meta.html title="Fitness Coach" -%}{%- 
+include header.html -%}{%- 
 
-{%- include header.html -%}
+capture postPreviews -%}{%- 
+  include posts-previews.html -%}{%- 
+endcapture -%}{%- 
 
-{{- page.content | markdownify -}}
+capture programsPreviews -%}{%- 
+  include programs-previews.html -%}{%- 
+endcapture -%}{%- 
 
-{%- include footer.html -%}
+capture testimonialsPreviews -%}{%- 
+  include testimonials-previews.html -%}{%- 
+endcapture -%}{{- 
+
+page.content | 
+    markdownify | 
+    replace: "<posts-previews />", postPreviews |
+    replace: "<programs-previews />", programsPreviews |
+    replace: "<testimonials-previews />", testimonialsPreviews -}}{%- 
+
+include footer.html
+
+-%}

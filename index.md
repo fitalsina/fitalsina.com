@@ -26,7 +26,7 @@ Here you put some bio paragrapgs. Here you put some bio paragrapgs. Here you put
 - Kasin's latest posts
 - Learn more about staying fit
 
-<post-previews/>
+<posts-previews />
 
 - read more posts
 
@@ -37,7 +37,7 @@ Here you put some bio paragrapgs. Here you put some bio paragrapgs. Here you put
 - training programs
 - get your fitness journey right
 
-<program-previews/>
+<programs-previews />
 
 
 
@@ -46,7 +46,7 @@ Here you put some bio paragrapgs. Here you put some bio paragrapgs. Here you put
 - success stories
 - customer journeys and testimonials
 
-<testimonial-previews/>
+<testimonials-previews />
 
 
 

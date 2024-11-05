@@ -2,6 +2,7 @@
 set -e errexit
 toolsDir=$(dirname ${0})
 wwwDir="${toolsDir}/../.."
+cd "${wwwDir}"
 set -x
 
 bundle config set path 'vendor/bundle'

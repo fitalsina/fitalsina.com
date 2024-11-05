@@ -1,1 +1,10 @@
-footer template here
+<nav class="footer">
+{%- 
+
+capture content -%}{%- 
+  include components/footer.md -%}{%- 
+endcapture -%}{{- 
+content | markdownify | remove: '<p>' | remove: '</p>'
+
+-}}
+</nav>
