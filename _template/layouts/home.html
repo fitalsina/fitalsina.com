@@ -28,7 +28,7 @@ endcapture -%}{{-
 
 page.content | 
     markdownify |
-    replace: "<h1 ", "</section><section " |
+    replace: "<h1 ", "</section><section class='home-section' " |
     replace: "</h1>", "" |
     replace: "<posts-previews />", postPreviews |
     replace: "<programs-previews />", programsPreviews |

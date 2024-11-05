@@ -11,19 +11,101 @@
 @import url("/_template/fonts/staatliches/staatliches.css");
 
 
+
+* {
+  box-sizing: border-box;
+  overflow: hidden;
+  margin: 0;
+  cursor: default;
+  user-select: none;
+}
+
+::selection {
+  color: inherit;
+  background-color: transparent;
+}
+
+:root {
+  overflow-y: scroll;
+  --theme-color: #3367D6;
+  --theme-color-highlight: #4a84ff;
+  --background-color: #0a0b0b;
+  background: var(--background-color);
+}
+
 body {
   margin: 0;
   color: white;
-  font-family: "Noto Sans";
   
+  font-family: "REM";
   
-  /* font-family: "Basement Grotesque";
+  /* 
+  font-family: "Basement Grotesque";
   font-family: "Baumans";
   font-family: "Bebas Neue";
   font-family: "Goldman";
-  font-family: "Montserrat";
   font-family: "Oswald";
   font-family: "Poppins";
   font-family: "REM";
-  font-family: "Staatliches"; */
+  font-family: "Staatliches"; 
+  font-family: "Noto Sans";
+  font-family: "Montserrat";
+  */
+}
+
+a {
+  text-decoration: none;
+  cursor: pointer;
+}
+
+
+.header {
+  display: flex;
+  flex-direction: row;
+  max-width: 1182px;
+  margin: 0 auto;
+  align-items: center;
+  justify-content: end;
+  height: 125px;
+  margin-bottom: -125px;
+  z-index: 10;
+  position: relative;
+}
+
+.header img {
+  width: 142px;
+  margin-right: auto;
+}
+
+.header a {
+  text-transform: uppercase;
+  color: white;
+  text-decoration: none;
+  margin: 0 14px;
+  font-size: 15px;
+  letter-spacing: 2px;
+  border-width: 3px 0;
+  border-style: solid;
+  border-color: transparent;
+  transition: border-color 0.3s;
+  padding: 9px 0;
+
+  /* font-family: 'Montserrat';
+  font-weight: 600; */
+
+  font-family: 'REM';
+  font-weight: 400;
+}
+
+.header a:hover {
+  border-bottom-color: white;
+}
+
+.page-top-shadow {
+  position: fixed;
+  top: 0;
+  width: 100vw;
+  height: 50px;
+  z-index: 100;
+  background: linear-gradient(0, transparent, #0a0b0b);
 }

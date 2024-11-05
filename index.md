@@ -1,10 +1,11 @@
-# home
+# intro
 
 - Fitness Coach
 - Kasim Alsina / FitAlsina.com
 - [Get Started](#/contact)
 
-
+![background](https://images.fitalsina.com/stock-photos/22.jpg)
+![foreground](https://images.fitalsina.com/stock-photos/11.png)
 
 # bio
 

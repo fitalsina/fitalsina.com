@@ -1,25 +1,76 @@
-/* h1 {
-  margin: 0;
-  width: 0;
-  height: 0;
-  display: block;
-  color: transparent;
-}
-
-h1::after {
-  content: "";
-  display: block;
-
-} */
-
-section {
-  /* color: transparent;
-  font-size: 0; */
+.home-section {
   text-indent: -9999px;
+  width: 100vw;
+  height: 100vh;
+  position: relative;
 }
 
-section > * {
-  /* color: red;
-  font-size: 1rem; */
+.home-section > * {
   text-indent: 0;
+}
+
+:root {
+  /* background-image: url(/tmp/home.jpg); */
+  background-size: auto 100vh;
+  background-attachment: fixed;
+}
+
+.home-section > ul {
+  list-style-type: none;
+}
+
+.home-section#intro li:nth-of-type(1) {
+  text-transform: uppercase;
+  position: absolute;
+  top: 274px;
+  left: 206px;
+  font-size: 117px;
+  max-width: 723px;
+  font-weight: 600;
+  font-family: "REM";
+  line-height: 128px;
+}
+
+.home-section#intro li:nth-of-type(2) {
+  position: absolute;
+  top: 500px;
+  left: 216px;
+  font-size: 27px;
+  font-weight: 300;
+  font-family: "REM";
+  line-height: 128px;
+}
+
+.home-section#intro a {
+  background: var(--theme-color);
+  color: white;
+  padding: 21px 65px;
+  position: absolute;
+  top: 624px;
+  left: 219px;
+  text-transform: uppercase;
+  border-radius: 47px;
+  font-size: 15px;
+}
+
+.home-section#intro a:hover {
+  background: var(--theme-color-highlight);
+}
+
+.home-section#intro img[alt='foreground'] {
+  position: absolute;
+  bottom: 0;
+  right: -463px;
+  height: 992px;
+}
+
+.home-section#intro img[alt='background'] {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100vw;
+  height: 100vh;
+  object-fit: cover;
+  z-index: -1;
+  opacity: 0.2;
 }
