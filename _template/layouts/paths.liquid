@@ -1,0 +1,15 @@
+{%-
+
+assign _rootDomain = "fitalsina.com" -%}{%-
+assign _urlParts = page.url | append: '.' | split: '/' -%}{%-
+assign _dirDepth = _urlParts | size | minus: 2 -%}{%-
+
+assign _rootPath = "." -%}{%-
+for i in (1.._dirDepth) -%}{%-
+  assign _rootPath = _rootPath | append: "/.." -%}{%-
+endfor -%}{%-
+
+assign wwwRoot    = _rootPath -%}{%-
+assign imagesRoot = "https://images." | append: _rootDomain
+
+-%}

@@ -72,3 +72,4 @@ plugins:
 optional_front_matter:
   remove_originals: true
 livereload: true
+incremental: true
