@@ -1,7 +1,0 @@
-#!/usr/bin/env bash
-set -e errexit
-toolsDir=$(dirname ${0})
-wwwDir="${toolsDir}/../.."
-set -x
-
-bundle exec jekyll serve --port 4420

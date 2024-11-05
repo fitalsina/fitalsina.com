@@ -1,9 +1,0 @@
-#!/usr/bin/env bash
-set -e errexit
-toolsDir=$(dirname ${0})
-wwwDir="${toolsDir}/../.."
-set -x
-
-bundle config set path 'vendor/bundle'
-bundle install
-bundle update
