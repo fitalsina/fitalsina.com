@@ -1,6 +1,7 @@
 const App = {
   load() {
     this.registerWorker();
+    this.activateTurbolinks();
   },
 
   async registerWorker() {
@@ -13,6 +14,12 @@ const App = {
     } catch(e) {
       console.warn(e);
     }
+  },
+
+  activateTurbolinks() {
+    const script = document.createElement("script");
+    script.src = "/_template/lib/turbolinks.js";
+    document.head.appendChild(script);
   }
 }
 

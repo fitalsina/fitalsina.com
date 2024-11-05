@@ -17,6 +17,14 @@ Here you put some bio paragrapgs. Here you put some bio paragrapgs. Here you put
 
 Here you put some bio paragrapgs. Here you put some bio paragrapgs. Here you put some bio paragrapgs. Here you put some bio paragrapgs. Here you put some bio paragrapgs. Here you put some bio paragrapgs. Here you put some bio paragrapgs. 
 
+Here you put some bio paragrapgs. Here you put some bio paragrapgs. Here you put some bio paragrapgs. Here you put some bio paragrapgs. Here you put some bio paragrapgs. Here you put some bio paragrapgs. Here you put some bio paragrapgs. 
+
+Here you put some bio paragrapgs. Here you put some bio paragrapgs. Here you put some bio paragrapgs. Here you put some bio paragrapgs. Here you put some bio paragrapgs. Here you put some bio paragrapgs. Here you put some bio paragrapgs. 
+
+Here you put some bio paragrapgs. Here you put some bio paragrapgs. Here you put some bio paragrapgs. Here you put some bio paragrapgs. Here you put some bio paragrapgs. Here you put some bio paragrapgs. Here you put some bio paragrapgs. 
+
+Here you put some bio paragrapgs. Here you put some bio paragrapgs. Here you put some bio paragrapgs. Here you put some bio paragrapgs. Here you put some bio paragrapgs. Here you put some bio paragrapgs. Here you put some bio paragrapgs. 
+
 - [Train with Kasin](/#contact)
 
 
@@ -52,5 +60,5 @@ Here you put some bio paragrapgs. Here you put some bio paragrapgs. Here you put
 
 # contact
 
-
+some contact form here
 

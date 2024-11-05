@@ -11,3 +11,19 @@
 @import url("/_template/fonts/staatliches/staatliches.css");
 
 
+body {
+  margin: 0;
+  color: white;
+  font-family: "Noto Sans";
+  
+  
+  /* font-family: "Basement Grotesque";
+  font-family: "Baumans";
+  font-family: "Bebas Neue";
+  font-family: "Goldman";
+  font-family: "Montserrat";
+  font-family: "Oswald";
+  font-family: "Poppins";
+  font-family: "REM";
+  font-family: "Staatliches"; */
+}

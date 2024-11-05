@@ -1,0 +1,25 @@
+/* h1 {
+  margin: 0;
+  width: 0;
+  height: 0;
+  display: block;
+  color: transparent;
+}
+
+h1::after {
+  content: "";
+  display: block;
+
+} */
+
+section {
+  /* color: transparent;
+  font-size: 0; */
+  text-indent: -9999px;
+}
+
+section > * {
+  /* color: red;
+  font-size: 1rem; */
+  text-indent: 0;
+}
